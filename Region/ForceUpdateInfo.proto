@@ -1,0 +1,6 @@
+syntax = "proto3";
+option java_package = "raidenhttp.cache.protos";
+
+message ForceUpdateInfo {
+	string force_update_url = 1;
+}
