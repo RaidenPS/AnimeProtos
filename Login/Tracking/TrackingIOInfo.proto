@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+message TrackingIOInfo {
+	string EHMNEFANLGI = 1;
+	string IFNECHPPKKE = 2;
+	string HNFGIHDNGCB = 3;
+	string HBBLMFKFPKF = 4;
+	string GEJMEOLDGIO = 6;
+	string OFGKPPHKBCL = 14;
+	string NJPDGKMNOHN = 15;
+}

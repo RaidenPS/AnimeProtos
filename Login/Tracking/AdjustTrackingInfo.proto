@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+message AdjustTrackingInfo {
+	string JFAMBDKKDHE = 2;
+	string JLKFDDDPPHD = 3;
+	string MGDJMEMFBCD = 8;
+	string BDOFCOCOCPH = 11;
+	string LGMPOGACDHA = 13;
+	string KIBFINHDCKO = 15;
+}
