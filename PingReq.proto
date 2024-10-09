@@ -5,7 +5,7 @@ option java_package = "raidengame.cache.protobuf";
 // CmdId: 5983
 message PingReq {
 	bytes sc_data = 2;
-	uint64 timestamp_v2 = 3;
+	uint64 NHLLKPHMFGP = 3;
 	uint32 client_time = 4;
 	double total_tick_time = 7;
 	float ue_time = 8;

@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 25726
+message SetPlayerBornDataReq {
+	string nickname = 7;
+	uint32 avatar_id = 1;
+}

@@ -26,14 +26,14 @@ message GetPlayerTokenRsp {
     uint32 sub_channel_id = 267;
     uint32 channel_id = 290;
     uint32 key_id = 398;
-    bool is_watchdog_uid = 440;
+    bool GCDGEKAONGD = 440;
     string client_version_random_key = 496;
     string authkey = 528;
     StopServerInfo stop_server = 563;
-    bool is_login_white_list = 575;
-    uint32 sign_type = 576;
+    bool HNBGEKMPFIB = 575;
+    uint32 reg_minor_age = 576;
     uint32 authkey_ver = 630;
-    uint32 cloudClientIp = 847;
+    uint32 sign_type = 847;
     uint32 tag = 853;
     uint32 reg_platform = 1118;
     string country_code = 1269;
@@ -43,5 +43,5 @@ message GetPlayerTokenRsp {
     string client_ip_str = 1871;
     string sign = 1885;
     string psn_id = 1954;
-    string JLCDDOJGKKG = 2042;
+    string auth_appid = 2042;
 }
