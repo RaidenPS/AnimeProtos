@@ -1,5 +1,5 @@
 syntax = "proto3";
-option java_package = "raidenemu.cache.protobuf";
+option java_package = "raidengame.cache.protobuf";
 
 // Version: 5.0.0
 // CmdId: -

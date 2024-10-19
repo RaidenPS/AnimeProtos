@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 23449
+message GetScenePointReq {
+    bool is_new_player = 12;
+    uint32 belong_uid = 11;
+    uint32 scene_id = 8;
+}

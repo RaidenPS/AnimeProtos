@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "CityInfo.proto";
+
+// Version: 5.0
+// CmdId: 27301
+message GetSceneAreaRsp {
+    uint32 scene_id = 1;
+    repeated CityInfo city_info_list = 6;
+    int32 retcode = 7;
+    repeated uint32 area_id_list = 10;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+message BreakoutVector2 {
+    int32 x = 1;
+    int32 y = 2;
+}

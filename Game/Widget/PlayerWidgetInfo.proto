@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "WidgetSlotData.proto";
+
+// Version: 5.0
+// CmdId: -
+message PlayerWidgetInfo {
+    repeated WidgetSlotData slot_list = 6;
+    uint32 uid = 10;
+}

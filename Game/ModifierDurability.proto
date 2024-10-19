@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+message ModifierDurability {
+    float reduce_ratio = 1;
+    float remaining_durability = 2;
+}

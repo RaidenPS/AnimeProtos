@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "AbilitySyncStateInfo.proto";
+import "AbilityControlBlock.proto";
+
+// Version: 5.0
+// CmdId: -
+message TeamEnterSceneInfo {
+    uint32 team_entity_id = 1;
+    AbilitySyncStateInfo team_ability_info = 5;
+    AbilityControlBlock ability_control_block = 15;
+}

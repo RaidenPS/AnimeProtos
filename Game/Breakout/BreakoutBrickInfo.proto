@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+message BreakoutBrickInfo {
+    uint32 hp = 1;
+    uint32 element_type = 2;
+}

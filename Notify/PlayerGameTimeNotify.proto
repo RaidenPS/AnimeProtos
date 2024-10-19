@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 4423
+message PlayerGameTimeNotify {
+    uint32 game_time = 4;
+    bool is_home = 9;
+    uint32 uid = 15;
+}

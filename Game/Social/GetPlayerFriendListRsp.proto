@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "FriendBrief.proto";
+
+// Version: 5.0
+// CmdId: 893
+message GetPlayerFriendListRsp {
+	int32 retcode = 1;
+	repeated FriendBrief friend_list = 4;
+	repeated FriendBrief ask_friend_list = 7;
+}

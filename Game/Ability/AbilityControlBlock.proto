@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "AbilityEmbryo.proto";
+
+// Version: 5.0
+// CmdId: -
+message AbilityControlBlock {
+    repeated AbilityEmbryo ability_embryo_list = 1;
+}

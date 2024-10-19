@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 7914
+message EnterSceneReadyRsp {
+    int32 retcode = 9;
+    uint32 enter_scene_token = 11;
+}
