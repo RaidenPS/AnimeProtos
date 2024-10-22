@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "PlayerRTTInfo.proto";
+
+// Version: 5.0
+// CmdId: 22234
+message WorldPlayerRTTNotify {
+	repeated PlayerRTTInfo player_rtt_list = 2;
+}

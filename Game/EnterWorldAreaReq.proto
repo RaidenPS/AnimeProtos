@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 479
+message EnterWorldAreaReq {
+	uint32 area_type = 8;
+	uint32 area_id = 2;
+}

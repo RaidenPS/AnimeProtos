@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+message AvatarTeam {
+    string team_name = 5;
+    repeated uint64 avatar_guid_list = 10;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 28420
+message WindSeedType3Notify {
+	bytes payload = 6;
+	uint32 config_id = 14;
+}

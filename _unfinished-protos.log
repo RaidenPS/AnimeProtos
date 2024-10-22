@@ -13,3 +13,10 @@ Ability:
 
 Breakout:
 [99%] BreakoutAction
+
+Game:
+[99%] PlayerLocationInfo
+[89%] VehicleLocationInfo
+[50%] AvatarDataNotify
+[95%] TrialAvatarGrantRecord
+[99%] Weapon

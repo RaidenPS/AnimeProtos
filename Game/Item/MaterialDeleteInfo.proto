@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "CountDownDelete.proto";
+import "DateTimeDelete.proto";
+import "DelayWeekCountDownDelete.proto";
+
+// Version: 5.0
+// CmdId: -
+message MaterialDeleteInfo {
+    bool delete_time_num_map = 1;
+    oneof delete_info {
+        CountDownDelete count_down_delete = 2;
+        DateTimeDelete date_delete = 3;
+        DelayWeekCountDownDelete delay_week_count_down_delete = 4;
+    }
+}

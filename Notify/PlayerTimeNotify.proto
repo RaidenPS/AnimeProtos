@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 2272
+message PlayerTimeNotify {
+    bool is_paused = 3;
+    uint64 server_time = 7;
+    uint64 player_time = 8;
+}
