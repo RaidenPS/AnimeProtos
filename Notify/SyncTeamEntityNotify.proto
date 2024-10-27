@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "TeamEntityInfo.proto";
+
+// Version: 5.0
+// CmdId: 29231
+message SyncTeamEntityNotify {
+    uint32 scene_id = 8;
+    repeated TeamEntityInfo team_entity_info_list = 9;
+}
