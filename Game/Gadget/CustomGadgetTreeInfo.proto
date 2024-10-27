@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "CustomCommonNodeInfo.proto";
+
+// Version: 5.0
+// CmdId: -
+message CustomGadgetTreeInfo {
+    repeated CustomCommonNodeInfo node_list = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "Item.proto";
+
+// Version: 5.0
+// CmdId: -
+message TrifleGadget {
+    Item item = 1;
+    uint32 EJNBFCIJOMO = 2;
+}

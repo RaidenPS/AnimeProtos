@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "AnimatorParameterValueInfo.proto";
+
+// Version: 5.0
+// CmdId: -
+message AnimatorParameterValueInfoPair {
+    int32 name_id = 1;
+    AnimatorParameterValueInfo animator_para = 2;
+}

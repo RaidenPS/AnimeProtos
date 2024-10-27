@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+message GadgetCrucibleInfo {
+    uint32 mp_play_id = 1;
+    uint32 prepare_end_time = 2;
+}

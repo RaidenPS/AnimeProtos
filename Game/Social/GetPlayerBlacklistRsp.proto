@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "FriendBrief.proto";
+
+// Version: 5.0
+// CmdId: 23797
+message GetPlayerBlacklistRsp {
+    int32 retcode = 7;
+    repeated FriendBrief blacklist = 15;
+}

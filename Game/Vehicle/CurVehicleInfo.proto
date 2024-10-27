@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "Vector.proto";
+
+// Version: 5.0
+// CmdId: -
+message CurVehicleInfo {
+    uint32 entity_id = 1;
+    uint32 pos = 2;
+    uint32 gadget_id = 3;
+    Vector vehicle_pos = 4;
+    uint32 GIICKAOFKDB = 5;
+    Vector vehicle_rot = 6;
+}

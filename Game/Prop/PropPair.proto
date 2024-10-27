@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "PropValue.proto";
+
+// Version: 5.0
+// CmdId: -
+message PropPair {
+    uint32 type = 1;
+    PropValue prop_value = 2;
+}

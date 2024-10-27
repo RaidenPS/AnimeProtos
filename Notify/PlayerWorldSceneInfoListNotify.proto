@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "PlayerWorldSceneInfo.proto";
+
+// Version: 5.0
+// CmdId: 8028
+message PlayerWorldSceneInfoListNotify {
+    repeated PlayerWorldSceneInfo info_list = 13;
+    repeated uint32 KNFOKJBGBEI = 1055;
+}

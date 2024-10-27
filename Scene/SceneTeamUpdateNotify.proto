@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "SceneTeamAvatar.proto";
+
+// Version: 5.0
+// CmdId: 29107
+message SceneTeamUpdateNotify {
+    repeated SceneTeamAvatar scene_team_avatar_list = 5;
+    bool is_in_mp = 11;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "Vector.proto";
+
+// Version: 5.0
+// CmdId: -
+message EntityClientExtraInfo {
+    Vector skill_anchor_position = 1;
+}

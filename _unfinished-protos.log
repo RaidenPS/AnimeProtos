@@ -1,3 +1,6 @@
+Ping:
+[50%] PingReq
+
 Login:
 [90%] GetPlayerTokenRsp
 [80%] PlayerLoginReq
@@ -20,3 +23,13 @@ Game:
 [50%] AvatarDataNotify
 [95%] TrialAvatarGrantRecord
 [99%] Weapon
+[99%] PlayerWorldSceneInfo
+[80%] MotionInfo
+[50%] SceneEntityAiInfo
+[99%] SceneWeaponInfo
+[99%] CurVehicleInfo
+[75%] MonsterRoute
+[10%] RoutePoint
+[5%] SceneGadgetInfo
+[75%] VehicleInfo
+[50%] TrifleGadget

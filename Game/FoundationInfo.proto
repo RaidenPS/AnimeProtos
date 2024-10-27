@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+message FoundationInfo {
+    uint32 status = 1;
+    repeated uint32 uid_list = 2;
+    uint32 current_building_id = 3;
+    uint32 locked_by_uid = 4;
+}
