@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 25067
+message AskAddFriendRsp {
+	int32 retcode = 5;
+	uint32 target_uid = 7;
+	uint32 param = 9;
+}

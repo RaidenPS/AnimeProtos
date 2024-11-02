@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "Birthday.proto";
+
+// Version: 5.0
+// CmdId: 9150
+message SetPlayerBirthdayRsp {
+	Birthday birthday = 3;
+	int32 retcode = 6;
+}

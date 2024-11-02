@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 28564
+message PlayerReportRsp {
+	int32 retcode = 4;
+	uint32 target_uid = 8;
+	uint32 cd_time = 11;
+}

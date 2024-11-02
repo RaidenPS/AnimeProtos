@@ -1,0 +1,19 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "SystemHint.proto";
+
+// Version: 5.0
+// CmdId: -
+message ChatInfo {
+	bool is_read = 4;
+	uint32 time = 8;
+	uint32 to_uid = 5;
+	uint32 sequence = 7;
+	uint32 uid = 10;
+	oneof content {
+		uint32 icon = 21;
+		string text = 357;
+		SystemHint system_hint = 922;
+	}
+}

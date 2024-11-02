@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 27864
+message PrivateChatRsp {
+	int32 retcode = 9;
+	uint32 chat_forbidden_endtime = 13;
+}

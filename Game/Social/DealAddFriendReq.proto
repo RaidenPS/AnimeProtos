@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 21886
+message DealAddFriendReq {
+	uint32 target_uid = 5;
+	uint32 deal_add_friend_result = 10;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "FriendBrief.proto";
+
+// Version: 5.0
+// CmdId: 2865
+message GetRecentMpPlayerListRsp {
+	int32 retcode = 2;
+	repeated FriendBrief recent_mp_player_brief_list = 10;
+}

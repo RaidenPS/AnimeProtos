@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 2632
+message GetAllUnlockNameCardRsp {
+	int32 retcode = 10;
+	repeated uint32 name_card_list = 11;
+}

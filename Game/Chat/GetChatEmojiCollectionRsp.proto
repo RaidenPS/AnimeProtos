@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "ChatEmojiCollectionData.proto";
+
+// Version: 5.0
+// CmdId: 4036
+message GetChatEmojiCollectionRsp {
+	int32 retcode = 12;
+	ChatEmojiCollectionData chat_emoji_collection_data = 14;
+}

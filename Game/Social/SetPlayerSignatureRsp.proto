@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 24101
+message SetPlayerSignatureRsp {
+	int32 retcode = 6;
+	string signature = 10;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "ChatEmojiCollectionData.proto";
+
+// Version: 5.0
+// CmdId: 1643
+message SetChatEmojiCollectionReq {
+	ChatEmojiCollectionData chat_emoji_collection_data = 3;
+}

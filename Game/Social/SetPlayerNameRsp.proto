@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 24044
+message SetPlayerNameRsp {
+	string nick_name = 4;
+	int32 retcode = 8;
+}

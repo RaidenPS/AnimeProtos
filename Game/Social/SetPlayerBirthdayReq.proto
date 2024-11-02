@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "Birthday.proto";
+
+// Version: 5.0
+// CmdId: 26726
+message SetPlayerBirthdayReq {
+	Birthday birthday = 11;
+}

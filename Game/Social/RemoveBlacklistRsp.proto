@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 7700
+message RemoveBlacklistRsp {
+	int32 retcode = 7;
+	uint32 target_uid = 12;
+}

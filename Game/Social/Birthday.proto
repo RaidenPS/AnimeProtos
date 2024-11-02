@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+message Birthday {
+	uint32 month = 1;
+	uint32 day = 2;
+}

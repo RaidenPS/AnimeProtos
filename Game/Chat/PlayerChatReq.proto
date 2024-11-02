@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "ChatInfo.proto";
+
+// Version: 5.0
+// CmdId: 21209
+message PlayerChatReq {
+	ChatInfo chat_info = 5;
+	uint32 channel_id = 8;
+}

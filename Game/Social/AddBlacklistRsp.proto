@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "FriendBrief.proto";
+
+// Version: 5.0
+// CmdId: 2733
+message AddBlacklistRsp {
+	FriendBrief target_friend_brief = 5;
+	int32 retcode = 13;
+}

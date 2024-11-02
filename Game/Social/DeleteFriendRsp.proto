@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 9301
+message DeleteFriendRsp {
+	int32 retcode = 8;
+	uint32 target_uid = 14;
+}

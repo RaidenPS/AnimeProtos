@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "ChatInfo.proto";
+
+// Version: 5.0
+// CmdId: 26725
+message PullRecentChatRsp {
+	int32 retcode = 2;
+	repeated ChatInfo chat_info = 6;
+}

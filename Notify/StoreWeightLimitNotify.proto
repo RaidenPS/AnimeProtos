@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "StoreType.proto";
+
+// Version: 5.0
+// CmdId: 3034
+message StoreWeightLimitNotify {
+	uint32 weapon_count_limit = 3;
+	uint32 weight_limit = 5;
+	uint32 furniture_count_limit = 7;
+	uint32 material_count_limit = 11;
+	uint32 reliquary_count_limit = 14;
+	StoreType store_type = 15;
+}

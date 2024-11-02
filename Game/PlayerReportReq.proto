@@ -1,0 +1,34 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 27619
+message PlayerReportReq {
+	enum ReportReason {
+		REPORT_REASON_NONE = 0;
+		REPORT_REASON_DECEPTIVE_ADS = 1;
+		REPORT_REASON_ABUSING = 2;
+		REPORT_REASON_CHEAT = 3;
+		REPORT_REASON_POLITICAL = 4;
+		REPORT_REASON_OTHER = 5;
+		REPORT_REASON_HOME = 6;
+	}
+
+	enum ReportReasonSubType {
+		REPORT_REASON_SUBTYPE_NONE = 0;
+		REPORT_REASON_SUBTYPE_INVALID_NICKNAME = 1;
+		REPORT_REASON_SUBTYPE_INVALID_SIGNATURE = 2;
+		REPORT_REASON_SUBTYPE_INVALID_ARRANGEMENT = 3;
+		REPORT_REASON_SUBTYPE_INVALID_CHAT = 4;
+		REPORT_REASON_SUBTYPE_INVALID_AVATAR_NAME = 5;
+		REPORT_REASON_SUBTYPE_INVALID_OTHER = 6;
+		REPORT_REASON_SUBTYPE_INVALID_LITTLE_DRILL_NAME = 7;
+	}
+
+	ReportReason reason = 4;
+	uint32 NBFGKPBCGLJ = 7;
+	uint32 target_uid = 8;
+	ReportReasonSubType subreason = 10;
+	string IJPBKNDJGHK = 14;
+	string content = 15;
+}

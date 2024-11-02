@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 24426
+message PrivateChatReq {
+	uint32 target_uid = 8;
+	oneof content {
+		uint32 icon = 11;
+		string text = 9;
+	}
+}

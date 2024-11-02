@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 8925
+message PullPrivateChatReq {
+	uint32 target_uid = 9;
+	uint32 pull_num = 11;
+	uint32 from_sequence = 4;
+}
