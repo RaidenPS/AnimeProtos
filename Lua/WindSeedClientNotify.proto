@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "RefreshNotify.proto";
+import "AddWindBulletNotify.proto";
+import "AreaNotify.proto";
+
+// Version: 5.0
+// CmdId: 9675
+message WindSeedClientNotify {
+	oneof notify {
+		RefreshNotify refresh_notify = 3;
+		AddWindBulletNotify add_wind_bullet_notify = 10;
+		AreaNotify area_notify = 13;
+	}
+}

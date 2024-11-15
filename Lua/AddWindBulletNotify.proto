@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "Vector.proto";
+
+// Version: 5.0
+// CmdId: -
+message AddWindBulletNotify {
+	uint32 seed_entity_id = 5;
+	Vector seed_pos = 6;
+	uint32 catch_player_uid = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 20659
+message UpdatePlayerShowAvatarListRsp {
+	repeated uint32 show_avatar_id_list = 3;
+	int32 retcode = 5;
+	bool is_show_avatar = 8;
+	bool is_show_constellation_num = 15;
+}

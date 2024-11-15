@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "MailData.proto";
+
+// Version: 5.0
+// CmdId: 22156
+message GetAllMailRsp {
+	bool is_collected = 4;
+	int32 retcode = 5;
+	bool is_truncated = 9;
+	repeated MailData mail_list = 11;
+}

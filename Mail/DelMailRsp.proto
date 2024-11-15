@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 26121
+message DelMailRsp {
+	repeated uint32 mail_id_list = 14;
+	int32 retcode = 15;
+}

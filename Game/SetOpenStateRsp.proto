@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 7944
+message SetOpenStateRsp {
+	uint32 key = 5;
+	int32 retcode = 6;
+	uint32 value = 10;
+}

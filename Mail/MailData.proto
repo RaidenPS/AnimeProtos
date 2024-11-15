@@ -1,0 +1,33 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "MailItem.proto";
+
+// Version: 5.0
+// CmdId: -
+message MailData {
+	message MailTextContent {
+		string title = 1;
+		string content = 2;
+		string sender = 3;
+	}
+	
+	enum MailCollectState {
+		MAIL_COLLECTIBLE_UNKONW = 0;
+		MAIL_NOT_COLLECTIBLE = 1;
+		MAIL_COLLECTIBLE_UNCOLLECTED = 2;
+		MAIL_COLLECTIBLE_COLLECTED = 3;
+	}
+
+	uint32 mail_id = 1;
+	MailTextContent mail_text_content = 4;
+	repeated MailItem item_list = 7;
+	uint32 send_time = 8;
+	uint32 expire_time = 9;
+	uint32 importance = 10;
+	bool is_read = 11;
+	bool is_attachment_got = 12;
+	uint32 config_id = 13;
+	repeated string argument_list = 14;
+	MailCollectState collect_state = 15;
+}

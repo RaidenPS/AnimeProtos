@@ -26,9 +26,9 @@ message PlayerReportReq {
 	}
 
 	ReportReason reason = 4;
-	uint32 NBFGKPBCGLJ = 7;
+	uint32 target_home_module_id = 7;
 	uint32 target_uid = 8;
 	ReportReasonSubType subreason = 10;
-	string IJPBKNDJGHK = 14;
+	string target_home_module_name = 14;
 	string content = 15;
 }

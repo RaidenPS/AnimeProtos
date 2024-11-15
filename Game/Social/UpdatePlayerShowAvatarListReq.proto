@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 3998
+message UpdatePlayerShowAvatarListReq {
+	repeated uint32 show_avatar_id_list = 3;
+	bool is_show_avatar = 13;
+	bool is_show_constellation_num = 11;
+}

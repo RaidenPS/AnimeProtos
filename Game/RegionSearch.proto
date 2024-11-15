@@ -1,0 +1,19 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+message RegionSearch {
+	enum RegionSearchState {
+		REGION_SEARCH_NONE = 0;
+		REGION_SEARCH_UNSTARTED = 1;
+		REGION_SEARCH_STARTED = 2;
+		REGION_SEARCH_WAIT_REWARD = 3;
+		REGION_SEARCH_FINISHED = 4;
+	}
+
+	bool is_entered = 1;
+	uint32 region_search_id = 6;
+	uint32 progress = 13;
+	RegionSearchState state = 14;
+}

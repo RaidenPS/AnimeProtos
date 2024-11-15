@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "FriendBrief.proto";
+
+// Version: 5.0
+// CmdId: 5432
+message AskAddFriendNotify {
+	FriendBrief target_friend_brief = 5;
+	uint32 target_uid = 14;
+}

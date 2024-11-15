@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+message AreaNotify {
+	uint32 area_type = 3;
+	uint32 area_id = 5;
+	bytes area_code = 13;
+}

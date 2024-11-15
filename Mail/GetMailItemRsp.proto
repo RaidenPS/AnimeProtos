@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "EquipParam.proto";
+
+// Version: 5.0
+// CmdId: 9691
+message GetMailItemRsp {
+	repeated uint32 mail_id_list = 4;
+	repeated EquipParam item_list = 9;
+	int32 retcode = 14;
+}

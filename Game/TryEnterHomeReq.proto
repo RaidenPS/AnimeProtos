@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 29384
+message TryEnterHomeReq {
+	uint32 target_uid = 7;
+	bool is_transfer_to_main_house_point = 1;
+	bool is_transfer_to_safe_point = 11;
+	uint32 target_point = 15;
+}

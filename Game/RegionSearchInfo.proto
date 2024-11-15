@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "RegionSearch.proto";
+
+// Version: 5.0
+// CmdId: -
+message RegionSearchInfo {
+	bool is_entered = 4;
+	repeated RegionSearch region_search_list = 8;
+	uint32 id = 11;
+}

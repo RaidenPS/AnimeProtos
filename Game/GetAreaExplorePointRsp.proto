@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 29332
+message GetAreaExplorePointRsp {
+	repeated uint32 explore_point_list = 1;
+	repeated uint32 area_id_list = 7;
+	int32 retcode = 11;
+}
