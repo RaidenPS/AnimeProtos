@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: -
+enum MpSettingType {
+	MP_SETTING_NO_ENTER = 0;
+	MP_SETTING_ENTER_FREELY = 1;
+	MP_SETTING_ENTER_AFTER_APPLY = 2;
+}

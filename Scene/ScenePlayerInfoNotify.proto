@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "ScenePlayerInfo.proto";
+
+// Version: 5.0
+// CmdId: 7477
+message ScenePlayerInfoNotify {
+    repeated ScenePlayerInfo player_info_list = 3;
+}

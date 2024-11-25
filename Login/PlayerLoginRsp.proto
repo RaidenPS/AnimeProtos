@@ -26,7 +26,7 @@ message PlayerLoginRsp {
 	bool is_audit = 67;
 	repeated ShortAbilityHashPair short_ability_hash_map = 90;
 	ResVersionConfig res_version_config = 113;
-	bool KLLPFNOLBHO = 179;
+	bool is_use_ability_hash = 179;
 	string client_silence_md5 = 249;
 	repeated FeatureBlockInfo feature_block_info_list = 336;
 	bool is_enable_client_hash_debug = 451;

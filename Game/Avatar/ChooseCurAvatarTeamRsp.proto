@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 5985
+message ChooseCurAvatarTeamRsp {
+	int32 retcode = 7;
+	uint32 cur_team_id = 8;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 7491
+message ChangeTeamNameRsp {
+	int32 team_id = 6;
+	string team_name = 8;
+	int32 retcode = 14;
+}

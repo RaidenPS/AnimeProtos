@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "WidgetSlotTag.proto";
+
+// Version: 5.0
+// CmdId: -
+message WidgetSlotData {
+	WidgetSlotTag tag = 1;
+	uint32 material_id = 9;
+	uint32 cd_over_time = 11;
+	bool is_active = 12;
+}

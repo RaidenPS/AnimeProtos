@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "WidgetSlotData.proto";
+
+// Version: 5.0
+// CmdId: 5441
+message GetWidgetSlotRsp {
+	int32 retcode = 9;
+	repeated WidgetSlotData slot_list = 10;
+}

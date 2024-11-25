@@ -4,7 +4,7 @@ Ping:
 Login:
 [90%] GetPlayerTokenRsp
 [80%] PlayerLoginReq
-[90%] PlayerLoginRsp
+[99%] PlayerLoginRsp
 [0%] TrackingIOInfo
 [0%] AdjustTrackingInfo
 
@@ -36,3 +36,6 @@ Game:
 [75%] VehicleInfo
 [50%] TrifleGadget
 [80%] SocialDetail
+[70%] SocialShowAvatarInfo
+[99%] ChangeAvatarReq
+[99%] SkipPlayerGameTimeRsp

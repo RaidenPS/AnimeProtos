@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "VisionType.proto";
+
+// Version: 5.0
+// CmdId: 29127
+message SceneEntityDisappearNotify {
+	VisionType disappear_type = 10;
+	repeated uint32 entity_list = 13;
+	uint32 param = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "SocialDetail.proto";
+
+// Version: 5.0
+// CmdId: 1771
+message GetPlayerSocialDetailRsp {
+	int32 retcode = 5;
+	SocialDetail detail_data = 12;
+}

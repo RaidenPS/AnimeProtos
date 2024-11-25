@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 7408
+message DelBackupAvatarTeamRsp {
+	uint32 backup_avatar_team_id = 5;
+	int32 retcode = 14;
+}

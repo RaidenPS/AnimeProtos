@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "AvatarTeam.proto";
+
+// Version: 5.0
+// CmdId: 28759
+message AvatarTeamUpdateNotify {
+	repeated uint64 temp_avatar_guid_list = 10;
+	map<uint32, AvatarTeam> avatar_team_map = 12;
+}

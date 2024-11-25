@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "OnlinePlayerInfo.proto";
+
+// Version: 5.0
+// CmdId: -
+message ScenePlayerInfo {
+    OnlinePlayerInfo online_player_info = 1;
+    bool is_connected = 2;
+    uint32 scene_id = 5;
+    string name = 8;
+    uint32 peer_id = 11;
+    uint32 uid = 13;
+}

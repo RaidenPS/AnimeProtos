@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "Item.proto";
+import "StoreType.proto";
+
+// Version: 5.0
+// CmdId: 7845
+message PlayerStoreNotify {
+	repeated Item item_list = 1;
+	StoreType store_type = 5;
+	uint32 weight_limit = 8;
+}

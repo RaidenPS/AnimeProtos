@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "ProfilePicture.proto";
+
+// Version: 5.0
+// CmdId: 21563
+message SetPlayerHeadImageRsp {
+	ProfilePicture profile_picture = 2;
+	int32 retcode = 4;
+}

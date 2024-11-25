@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version 5.0
+// CmdId: 2046
+message ChangeAvatarRsp {
+	int32 retcode = 3;
+	uint64 cur_guid = 6;
+	uint32 skill_id = 8;
+}

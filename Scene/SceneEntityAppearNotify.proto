@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "SceneEntityInfo.proto";
+import "VisionType.proto";
+
+// Version: 5.0
+// CmdId: 6263
+message SceneEntityAppearNotify {
+	repeated SceneEntityInfo entity_list = 2;
+	VisionType appear_type = 8;
+	uint32 param = 9;
+}

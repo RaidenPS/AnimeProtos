@@ -1,8 +1,0 @@
-syntax = "proto3";
-option java_package = "raidengame.cache.protobuf";
-
-// Version: 5.0.0
-// CmdId: 1387
-message ServerDisconnectClientNotify {
-	uint32 data = 15;
-}

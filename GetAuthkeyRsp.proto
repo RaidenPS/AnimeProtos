@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 154
+message GetAuthkeyRsp {
+	int32 retcode = 4;
+	string auth_appid = 5;
+	uint32 sign_type = 6;
+	uint32 authkey_ver = 11;
+	string authkey = 13;
+	string game_biz = 15;
+}

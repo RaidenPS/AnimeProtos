@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 338
+message SkipPlayerGameTimeRsp {
+	repeated uint32 AEPPKCKCIBP = 4;
+	int32 retcode = 6;
+	uint32 client_game_time = 7;
+	uint32 game_time = 13;
+}

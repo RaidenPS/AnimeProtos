@@ -41,9 +41,9 @@ message SocialDetail {
 	string ip_code = 26;
 	uint32 imaginarium_theater_act_num = 27;
 	uint32 GEGBOECJJMO = 28;
-	uint32 MBOLLDBJPCP = 32;
+	uint32 imaginarium_theater_star_num = 32;
 	bool is_show_constellation_num = 33;
-	uint32 charactersMaxLevel = 34;
+	uint32 total_characters_at_max_level = 34;
 	uint32 MOBMAJIJJGL = 35;
 	GameVersionType is_playing_50_version = 36;
 }

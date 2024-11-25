@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+// Version: 5.0
+// CmdId: 25740
+message GetPlayerMpModeAvailabilityRsp {
+	int32 mp_ret = 1;
+	int32 retcode = 7;
+	repeated uint32 param_list = 8;
+}

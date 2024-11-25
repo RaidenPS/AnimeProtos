@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "Reliquary.proto";
+import "Weapon.proto";
+
+// Version: 5.0
+// CmdId: -
+message ShowEquip {
+	uint32 item_id = 1;
+	oneof detail {
+		Reliquary reliquary = 2;
+		Weapon weapon = 3;
+	}
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "AvatarInfo.proto";
+
+// Version: 5.0
+// CmdId: 4216
+message AvatarAddNotify {
+	bool is_in_team = 3;
+	AvatarInfo avatar_info = 12;
+}

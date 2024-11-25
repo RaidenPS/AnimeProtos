@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "raidengame.cache.protobuf";
+
+import "ShowAvatarInfo.proto";
+
+// Version: 5.0
+// CmdId: 27251
+message GetFriendShowAvatarInfoRsp {
+	int32 retcode = 1;
+	repeated ShowAvatarInfo show_avatar_info_list = 9;
+	uint32 uid = 11;
+}
